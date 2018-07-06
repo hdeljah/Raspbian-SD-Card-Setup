@@ -8,4 +8,3 @@ Prepare SD card with Raspbian Stretch Lite 4.14.
 -Enable all interfaces and extend file system (camera,ssh,vnc,file extension,updates)<br>
 **<b>Back-Up</b>**<br>
 
-# Setup Stream
