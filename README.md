@@ -6,5 +6,6 @@ Prepare SD card with Raspbian Stretch Lite 4.14.
 -Erase and Format SD card: 8GB,ExFat,GUID Partition <br>
 -Write Image to SD card(create wpa_supplicant.conf + ssh file with text editor on SD boot)<br>
 -Enable all interfaces and extend file system (camera,ssh,vnc,file extension,updates)<br>
+
 **<b>Back-Up</b>**<br>
 
