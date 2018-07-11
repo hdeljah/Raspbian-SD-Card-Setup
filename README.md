@@ -1,5 +1,4 @@
-# Stretch-Script
-Prepare SD card with Raspbian Stretch Lite 4.14 on MacBook Pro macOS Sierra Version 10.12.6
+# Prepare SD card with Raspbian Stretch Lite 4.14 on MacBook Pro macOS Sierra Version 10.12.6
 
 # SD Card Setup
 
