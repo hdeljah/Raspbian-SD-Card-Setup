@@ -7,7 +7,7 @@ Prepare SD card with Raspbian Stretch Lite 4.14 on MacBook Pro macOS Sierra Vers
 <blockquote>$ curl -O http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-06-29/2018-06-27-raspbian-stretch.zip
 </blockquote>
 Unzip file<br>
-<b>Erase and Format SD card: ExFat,GUID Partition <br>
+<br><b>Erase and Format SD card: ExFat,GUID Partition <br>
 <blockquote>$ sudo diskutil list</blockquote>
 <blockquote>$ sudo diskutil eraseDisk ExFAT Raspbian GPT /dev/rdisk1</blockquote>
 <b> Write Image to SD card(create wpa_supplicant.conf + ssh file with text editor on SD boot)<br>
