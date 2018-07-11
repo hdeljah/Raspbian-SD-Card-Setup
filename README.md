@@ -6,6 +6,7 @@ Prepare SD card with Raspbian Stretch Lite 4.14 on MacBook Pro macOS Sierra Vers
 <b>Download current Raspbian Lite Image 4.14 zip <a href="https://downloads.raspberrypi.org/raspbian_lite_latest">here</a> or use the curl command
 <blockquote>$ curl -O http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-06-29/2018-06-27-raspbian-stretch.zip
 </blockquote>
+unzip file<br>
 <b>Erase and Format SD card: ExFat,GUID Partition <br>
 <blockquote>$ sudo diskutil list</blockquote>
 <blockquote>$ sudo diskutil eraseDisk ExFAT Raspbian GPT /dev/rdisk1</blockquote>
