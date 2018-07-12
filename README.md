@@ -7,7 +7,7 @@
 <blockquote>$curl https://downloads.raspberrypi.org/raspbian_latest -L -o /Your Path/Raspbian.zip</blockquote>
 Unzip file<br>
 <blockquote>$unzip Raspbian.zip</blockquote>
-<br><b>Erase and Format SD card: ExFat,GUID Partition <br>
+<b>Erase and Format SD card: ExFat,GUID Partition <br>
 <blockquote>$sudo diskutil list</blockquote>
 <blockquote>$sudo diskutil eraseDisk ExFAT Raspbian GPT /dev/rdisk1</blockquote>
 <b> Write Image to SD card(create wpa_supplicant.conf + ssh file with text editor on SD boot)<br>
