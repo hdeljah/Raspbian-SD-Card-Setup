@@ -12,7 +12,7 @@ Unzip file<br>
 <b>Erase and Format SD card: ExFat,GUID Partition <br>
 <blockquote>$sudo diskutil list</blockquote>
 <blockquote>$sudo diskutil eraseDisk ExFAT Raspbian GPT /dev/rdisk1</blockquote>
-<b> Write Image to SD card<br>
+<b> Write Image to SD card<br><b>
 <blockquote>$sudo dd bs=2m if=/Your Path/Raspbian.img of=/dev/rdisk1 conv=sync</blockquote>
 <br>
 Create wpa_supplicant.conf file and ssh file<br><br>
