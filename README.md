@@ -6,7 +6,7 @@
 <b>Download current Raspbian Lite Image 4.14 zip <a href="https://downloads.raspberrypi.org/raspbian_lite_latest">here</a> or use the curl command
 <blockquote>$curl https://downloads.raspberrypi.org/raspbian_latest -L -o /Your Path/Raspbian.zip</blockquote>
 Unzip file<br>
-<blockquote>$unzip Raspbian.zip</blockquote>
+<blockquote>$sudo unzip Raspbian.zip</blockquote>
 <b>Erase and Format SD card: ExFat,GUID Partition <br>
 <blockquote>$sudo diskutil list</blockquote>
 <blockquote>$sudo diskutil eraseDisk ExFAT Raspbian GPT /dev/rdisk1</blockquote>
