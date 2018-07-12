@@ -17,6 +17,7 @@ This is a breakdown of the scripts I have written to handle quickly setting up a
 <br>
 <b>Create wpa_supplicant.conf file and ssh file</b><br><br> 
 Its a good idea to create the wpa_supplicant file now so you can connect to wifi without a keyboard and monitor.  Also, lets go ahead and enable SSH.
-<br> 
+<br>
+<br>
 <b>Enable all interfaces and extend file system (camera,ssh,vnc,file extension,updates)</b><br><br>
 <b>Back-Up SD Card</b><br>
