@@ -15,9 +15,9 @@ Unzip file<br>
 <b> Write Image to SD card<br>
 <blockquote>$sudo dd bs=2m if=/Your Path/Raspbian.img of=/dev/rdisk1 conv=sync</blockquote>
 <br>
-<b>Create wpa_supplicant.conf file and ssh file<b><br><br>
+<b>Create wpa_supplicant.conf file and ssh file<br><br>
   
-<b>Its a good idea to create the wpa_supplicant file now so you can connect to wifi without a keyboard and monitor.  Also, lets go ahead and enable SSH.<br><br>
+Its a good idea to create the wpa_supplicant file now so you can connect to wifi without a keyboard and monitor.  Also, lets go ahead and enable SSH.<br><br>
 <b>Enable all interfaces and extend file system (camera,ssh,vnc,file extension,updates)<br><br>
 
 <b>Back-Up</b><br>
