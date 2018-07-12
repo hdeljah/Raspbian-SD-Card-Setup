@@ -6,12 +6,12 @@
 <b>Download current Raspbian Lite Image 4.14 zip <a href="https://downloads.raspberrypi.org/raspbian_lite_latest">here</a> or use the curl command
 <blockquote>$curl https://downloads.raspberrypi.org/raspbian_latest -L -o /Your Path/Raspbian.zip</blockquote>
 Unzip file<br>
-<blockquote>$sudo unzip Raspbian.zip</blockquote>
+<blockquote>$sudo unzip /Your Path/Raspbian.zip</blockquote>
 <b>Erase and Format SD card: ExFat,GUID Partition <br>
 <blockquote>$sudo diskutil list</blockquote>
 <blockquote>$sudo diskutil eraseDisk ExFAT Raspbian GPT /dev/rdisk1</blockquote>
 <b> Write Image to SD card<br>
-<blockquote>$sudo dd bs=2m if=/Raspbian.img of=/dev/rdisk1 conv=sync</blockquote>
+<blockquote>$sudo dd bs=2m if=/Your Path/Raspbian.img of=/dev/rdisk1 conv=sync</blockquote>
 <br>
 <b>Create wpa_supplicant.conf file and ssh file<b><br><br>
   
