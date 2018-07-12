@@ -1,5 +1,7 @@
 # Prepare SD card w/ Raspbian Stretch Lite 4.14 
-<blockquote> MacBookPro macOS Sierra Version 10.12.6</blockquote>
+<blockquote> MacBookPro macOS Sierra Version 10.12.6</blockquote><br>
+
+This is a breakdown of the scripts I have written to handle quickly setting up a new, bootable Raspbian installation.The final build will be written in C++ and given variables/flags will download, unzip, erase, format, and image your SD card.
 
 # SD Card Setup
 
