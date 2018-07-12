@@ -17,7 +17,7 @@ Unzip file<br>
 <br>
 <b>Create wpa_supplicant.conf file and ssh file<b><br><br>
   
-Its a good idea to create the wpa_supplicant file now so you can connect to wifi without a keyboard and monitor.  Also, lets go ahead and enable SSH.<br><br>
+<b>Its a good idea to create the wpa_supplicant file now so you can connect to wifi without a keyboard and monitor.  Also, lets go ahead and enable SSH.<br><br>
 <b>Enable all interfaces and extend file system (camera,ssh,vnc,file extension,updates)<br><br>
 
 <b>Back-Up</b><br>
